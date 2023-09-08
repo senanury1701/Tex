@@ -1,0 +1,42 @@
+.my-btn
+{
+  background: #170b2a;
+  padding: 5px;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: white;
+  width: 75%;
+}
+.my-btn:active
+{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: 2px 5px #888888;
+  border: 1px black ;
+}
+.my-btn:hover 
+{
+  transform: scale(1.05);
+}
+
+.bg-lightblue
+{
+    background: linear-gradient(#fff,#69c7f3a8);
+}
+.bg-darkblue
+{
+  background-color: #170b2a;
+}
+
+@media screen and (min-width: 960px) {
+  .my-div {
+    width: 50%;
+  }
+}
+
+/* Diğer ekranlar için stil tanımları */
+@media screen and (max-width: 959px) {
+  .my-div {
+    width: 100%;
+  }
+}
